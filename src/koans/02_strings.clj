@@ -13,7 +13,7 @@
   (= "Cool right?" (str "Cool " "right?"))
 
   "You can even get certain characters"
-  (= \C (get "Characters" __))
+  (= \C (get "Characters" 0))
 
   "Or even count the characters"
   (= 11 (count "Hello World"))
